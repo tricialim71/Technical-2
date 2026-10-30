@@ -165,6 +165,7 @@ main {
   border: 1px solid transparent;
   cursor: pointer;
   line-height: 1.2;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .btn-primary {
@@ -222,6 +223,7 @@ main {
   padding-block: var(--space-2);
   padding-inline: var(--space-3);
   border-radius: var(--space-1);
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 /* Interactive States: :hover & :focus */
